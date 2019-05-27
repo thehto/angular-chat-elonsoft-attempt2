@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { from } from 'rxjs';
+//import { from } from 'rxjs';
 
 import { Message } from '../message';
-import { MESSAGES } from '../mock-messages'
-import { USERS } from '../mock-users'
+import { User } from '../user';
+import { MESSAGES } from '../mock-messages';
+import { USERS } from '../mock-users';
 
 @Component({
   selector: 'app-chat',

@@ -1,3 +1,9 @@
-<ul *ngFor="let message of messages">
+<!-- <li *ngFor="let message of messages">
   ({{message.id}}) {{message.author}} at {{message.date}}:  {{message.text}}
-</ul>
+</li> -->
+<mat-list>
+  <mat-list-item *ngFor="let message of messages">
+  ({{message.id}}) {{message.author}} at {{message.date}}:  {{message.text}}
+  <mat-divider></mat-divider>
+  </mat-list-item>
+</mat-list>

@@ -1,10 +1,10 @@
-ul {
+li {
     position: relative;
     left: 0;
     background-color: #EEE;
     width: 70%;
     margin: auto;
-    padding: .3em 0;
+    padding: 2%;
     height: 1.6em;
     border-radius: 4px;
   }

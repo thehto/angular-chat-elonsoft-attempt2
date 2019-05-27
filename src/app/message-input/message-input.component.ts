@@ -9,6 +9,7 @@ import { Message } from '../message'
   templateUrl: './message-input.component.html',
   styleUrls: ['./message-input.component.css']
 })
+
 export class MessageInputComponent implements OnInit {
 
   constructor() { }

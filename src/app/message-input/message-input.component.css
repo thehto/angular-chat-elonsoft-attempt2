@@ -1,0 +1,19 @@
+footer {
+    text-align: center;
+    position: fixed; 
+    left: 0; bottom: 0; 
+    padding: 10px;
+    background: #7e7e7e;
+    width: 100%;
+   }
+/* footer {
+   min-height: 62px;
+   -ms-flex-order: 3;
+   order: 3;
+   position: relative;
+   -ms-flex: none;
+   flex: none;
+   width: 100%;
+   box-sizing: border-box;
+   z-index: 1;
+} */

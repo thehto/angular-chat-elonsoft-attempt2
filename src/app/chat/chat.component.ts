@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-//import { from } from 'rxjs';
 
 import { Message } from '../message';
 import { User } from '../user';

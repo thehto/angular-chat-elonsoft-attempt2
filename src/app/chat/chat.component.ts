@@ -10,7 +10,9 @@ import { MESSAGES } from '../mock-messages'
   styleUrls: ['./chat.component.css']
 })
 export class ChatComponent implements OnInit {
+    messages = MESSAGES;
 
+  
   constructor() { }
 
   ngOnInit() {

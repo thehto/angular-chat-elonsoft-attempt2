@@ -1,9 +1,9 @@
-li {
-    cursor: pointer;
+ul {
     position: relative;
     left: 0;
     background-color: #EEE;
-    margin: .5em;
+    width: 70%;
+    margin: auto;
     padding: .3em 0;
     height: 1.6em;
     border-radius: 4px;

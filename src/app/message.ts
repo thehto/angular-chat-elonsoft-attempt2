@@ -3,5 +3,6 @@ export class Message {
     text: string;
     date: string;
     author: string
-    authorid: number;
+    authorId: number;
+    authorImage: string;
 }

@@ -1,9 +1,20 @@
+<!-- version 1  -->
 <!-- <li *ngFor="let message of messages">
   ({{message.id}}) {{message.author}} at {{message.date}}:  {{message.text}}
 </li> -->
-<mat-list>
+<!-- version 2  -->
+<!-- <mat-list>
   <mat-list-item *ngFor="let message of messages">
   ({{message.id}}) {{message.author}} at {{message.date}}:  {{message.text}}
   <mat-divider></mat-divider>
   </mat-list-item>
-</mat-list>
+</mat-list> -->
+<!-- version 3 -->
+<mat-list-item role="list" *ngFor="let message of messages">
+    <img  alt="{{message.author}}" src="{{message.authorImage}}">
+    <div>
+      <h3>{{message.author}}</h3>
+      <p>  {{message.text}}</p>
+    </div>
+</mat-list-item>
+  <!-- ({{message.id}}) at {{message.date}}: -->

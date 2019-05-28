@@ -1,19 +1,17 @@
-footer {
-    text-align: center;
-    position: fixed; 
-    left: 0; bottom: 0; 
-    padding: 10px;
-    background: #7e7e7e;
+.footer {
+    display: flex;
+    align-content: space-around;
+    flex-direction: row;
+    align-content: center;
+    padding: 10px 0px 10px 0px;
+    background-color:#F7F7F7;
     width: 100%;
    }
-/* footer {
-   min-height: 62px;
-   -ms-flex-order: 3;
-   order: 3;
-   position: relative;
-   -ms-flex: none;
-   flex: none;
-   width: 100%;
-   box-sizing: border-box;
-   z-index: 1;
-} */
+.textfield{
+    flex-grow: 1;
+    padding: 0% 0% 0% 5%;
+}
+button{
+    padding: 10px;
+    margin: 0% 2% 0% 2%;
+}

@@ -1,7 +1,11 @@
-.tp-container {
+body{
+    background-color: #E9E9E9
+}
+.chat
+{
     display: flex;
-    flex-direction: column;
- }
- .tp-container > * {
-    width: 100%;
- }
+    flex-flow: wrap column;
+    align-content: center;
+    justify-content: flex-end;
+    min-height: 100%;
+}

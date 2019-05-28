@@ -10,9 +10,7 @@
   } */
 .message {
   display: flex;
-  flex-wrap: nowrap;
   justify-content: space-between;
- 
 }
 .avatar{
   align-self: center;
@@ -25,10 +23,10 @@
   flex-grow: 100;
   flex-flow: nowrap column;
 }
+h3{
+  margin-bottom: -1.5% ;
+}
 .date{
   color:lightgrey;
   margin-right: 2%;
-}
-h3{
-  flex-grow: 0.1;
 }

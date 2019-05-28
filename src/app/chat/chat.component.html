@@ -11,10 +11,14 @@
 </mat-list> -->
 <!-- version 3 -->
 <mat-list-item role="list" *ngFor="let message of messages">
-    <img  alt="{{message.author}}" src="{{message.authorImage}}">
-    <div>
+  <div class= "message" id="{{message.id}}">
+    <img class="avatar" alt="{{message.author}}" src="{{message.authorImage}}">
+    <div class="text">
       <h3>{{message.author}}</h3>
-      <p>  {{message.text}}</p>
+      <p>{{message.text}}  </p>
     </div>
+    <p class="date">{{message.date}}</p>
+  </div>
+  <mat-divider></mat-divider>
 </mat-list-item>
-  <!-- ({{message.id}}) at {{message.date}}: -->
+<br><br><br><br><br>

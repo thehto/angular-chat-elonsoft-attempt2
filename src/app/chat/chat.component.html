@@ -1,23 +1,23 @@
-<!-- version 1  -->
-<!-- <li *ngFor="let message of messages">
-  ({{message.id}}) {{message.author}} at {{message.date}}:  {{message.text}}
-</li> -->
-<!-- version 2  -->
-<!-- <mat-list>
-  <mat-list-item *ngFor="let message of messages">
-  ({{message.id}}) {{message.author}} at {{message.date}}:  {{message.text}}
-  <mat-divider></mat-divider>
-  </mat-list-item>
-</mat-list> -->
-<!-- version 3 -->
-<mat-list-item role="list" *ngFor="let message of messages">
-<mat-divider></mat-divider>
-  <div class= "message" id="{{message.id}}">
-    <img class="avatar" alt="{{message.author}}" src="{{message.authorImage}}">
-    <div class="text">
-      <h3>{{message.author}}</h3>
-      <p>{{message.text}}  </p>
-    </div>
-    <p class="date">{{message.date}}</p>
-  </div>
-</mat-list-item>
+<mat-card class="bg-card">
+  <mat-card-content>
+    <mat-list-item role="list" *ngFor="let message of messages">
+      <div class="message" id="{{ message.id }}">
+        <mat-divider></mat-divider>
+        <img
+          mat-card-avatar
+          class="avatar"
+          alt="{{ message.author }}"
+          src="{{ message.authorImage }}"
+        />
+        <div class="text">
+          <h3>{{ message.author }}</h3>
+          <p>{{ message.text }}</p>
+        </div>
+        <p class="date">{{ message.date }}</p>
+      </div>
+    </mat-list-item>
+  </mat-card-content>
+  <mat-card-actions>
+    <app-message-input></app-message-input>
+  </mat-card-actions>
+</mat-card>

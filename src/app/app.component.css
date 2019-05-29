@@ -1,11 +1,16 @@
-body{
-    background-color: #E9E9E9
+.header {
+  height: 100px;
+  background-color: #1e89d1;
 }
-.chat
-{
-    display: flex;
-    flex-flow: wrap column;
-    align-content: center;
-    justify-content: flex-end;
-    min-height: 100%;
+.background {
+  height: 400px;
+  margin-bottom: -400px;
+  background-color: #2f9ae0;
+}
+.chat {
+  margin-top:10%;
+  display: flex;
+  flex-flow: wrap column;
+  align-content: center;
+  justify-content: flex-end;
 }
